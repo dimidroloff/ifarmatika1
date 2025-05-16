@@ -4,9 +4,15 @@ a = int(input("Первое число: "))
 b = int(input("Второе число: "))
 c = int(input("Третье число: "))
 
+i = 0
 if 1 <= a <= 3:
     print(a)
+    i += 1
 if 1 <= b <= 3:
     print(b)
+    i += 1
 if 1 <= c <= 3:
     print(c)
+    i += 1
+if i == 0:
+    print("Ни одно не подходит")
