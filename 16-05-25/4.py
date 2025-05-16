@@ -14,4 +14,4 @@ elif a == "4":
 elif a == "5":
     print(f"{b} центнеров = {b * 100} кг")
 else:
-    print(a)
+    print(b)
