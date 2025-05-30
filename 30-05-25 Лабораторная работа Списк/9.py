@@ -2,6 +2,6 @@
 
 import random
 
-sp4 = [random.randint(0, 100) for i in range(25)]
+sp4 = [random.randint(50, 100) for i in range(25)]
 print(sp4)
 print(sp4.count(max(sp4)))
