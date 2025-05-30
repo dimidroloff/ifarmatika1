@@ -4,5 +4,5 @@
 sp = []
 a = input().split()
 for i in a:
-    sp.append(int(i))
+    sp.append("ХАХАХАХАХ")
 print(sp)
